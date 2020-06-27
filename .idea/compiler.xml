@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="drag_commons" />
+        <module name="drag_admin" />
+        <module name="drag_xo" />
+        <module name="drag_base" />
+        <module name="drag_utils" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="drag_admin" target="1.8" />
+      <module name="drag_base" target="1.8" />
+      <module name="drag_blog" target="1.8" />
+      <module name="drag_commons" target="1.8" />
+      <module name="drag_utils" target="1.8" />
+      <module name="drag_xo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="drag_admin" options="-parameters" />
+      <module name="drag_base" options="-parameters" />
+      <module name="drag_blog" options="" />
+      <module name="drag_commons" options="-parameters" />
+      <module name="drag_utils" options="-parameters" />
+      <module name="drag_xo" options="-parameters" />
+    </option>
+  </component>
+</project>
