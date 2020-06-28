@@ -23,6 +23,10 @@ public class AdminServiceImpl extends SuperServiceImpl<AdminMapper, Admin> imple
 
     @Autowired
     private WebUtil webUtil;
+
+    @Autowired
+    private PictureFeignClient pictureFeignClient;
+
     @Override
     public Admin getAdminById(String id) {
         return null;

@@ -3,6 +3,7 @@ package com.alex.dragblog.base.vo;
 import com.alex.dragblog.base.validator.annotion.IdValid;
 import com.alex.dragblog.base.validator.group.Delete;
 import com.alex.dragblog.base.validator.group.Update;
+import lombok.Data;
 
 /**
  *description:  view object 表现层 基类对象
@@ -10,6 +11,7 @@ import com.alex.dragblog.base.validator.group.Update;
  *createDate:   2020/6/26 22:59
  *version:      1.0.0
  */
+@Data
 public class BaseVo<T> extends PageInfo<T> {
 
     /**

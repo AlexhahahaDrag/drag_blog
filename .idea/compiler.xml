@@ -7,10 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="drag_commons" />
-        <module name="drag_admin" />
-        <module name="drag_xo" />
         <module name="drag_base" />
+        <module name="drag_gateway" />
+        <module name="drag_xo" />
+        <module name="drag_admin" />
+        <module name="drag_commons" />
         <module name="drag_utils" />
       </profile>
     </annotationProcessing>
@@ -19,6 +20,7 @@
       <module name="drag_base" target="1.8" />
       <module name="drag_blog" target="1.8" />
       <module name="drag_commons" target="1.8" />
+      <module name="drag_gateway" target="1.8" />
       <module name="drag_utils" target="1.8" />
       <module name="drag_xo" target="1.8" />
     </bytecodeTargetLevel>
@@ -29,6 +31,7 @@
       <module name="drag_base" options="-parameters" />
       <module name="drag_blog" options="" />
       <module name="drag_commons" options="-parameters" />
+      <module name="drag_gateway" options="-parameters" />
       <module name="drag_utils" options="-parameters" />
       <module name="drag_xo" options="-parameters" />
     </option>

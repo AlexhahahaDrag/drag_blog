@@ -6,6 +6,7 @@ import com.alex.dragblog.base.service.impl.SuperServiceImpl;
 import com.alex.dragblog.commons.entity.SystemConfig;
 import com.alex.dragblog.utils.RedisUtils;
 import com.alex.dragblog.utils.ResultUtils;
+import com.alex.dragblog.utils.StringUtils;
 import com.alex.dragblog.xo.global.MessageConf;
 import com.alex.dragblog.xo.global.RedisConf;
 import com.alex.dragblog.xo.global.SQLConf;
@@ -39,7 +40,7 @@ public class SystemConfigServiceImpl extends SuperServiceImpl<SystemConfigMapper
         queryWrapper.eq(SQLConf.STATUS, EStatus.ENABLE.getValue());
         queryWrapper.eq(SQLConf.ISDELETE, 0);
         queryWrapper.last("LIMIT 1");
-        return this.getOne(queryWrapper);;
+        return this.getOne(queryWrapper);
     }
 
     @Override
@@ -61,7 +62,43 @@ public class SystemConfigServiceImpl extends SuperServiceImpl<SystemConfigMapper
 
     @Override
     public String editSystemConfig(SystemConfigVo systemConfigVo) {
-        if (EOpenStatus.CLOSE_STATUS.getValue().equals(systemConfigVo.getUploadLocal()))
-        return null;
+        if (EOpenStatus.CLOSE_STATUS.getValue().equals(systemConfigVo.getUploadLocal()) && EOpenStatus.CLOSE_STATUS.getValue().equals(systemConfigVo.getUploadQiNiu())) {
+            return ResultUtils.result(SysConf.ERROR, MessageConf.PICTURE_MUST_BE_SELECT_AREA);
+        }
+        if (EOpenStatus.CLOSE_STATUS.getValue().equals(systemConfigVo.getPicturePriority()) && EOpenStatus.CLOSE_STATUS.getValue().equals(systemConfigVo.getUploadLocal())) {
+            return ResultUtils.result(SysConf.ERROR, MessageConf.MUST_BE_OPEN_LOCAL_UPLOAD);
+        }
+        if (EOpenStatus.OPEN_STATUS.getValue().equals(systemConfigVo.getPicturePriority()) && EOpenStatus.CLOSE_STATUS.getValue().equals(systemConfigVo.getUploadQiNiu())) {
+            return ResultUtils.result(SysConf.ERROR, MessageConf.MUST_BE_OPEN_QI_NIU_UPLOAD);
+        }
+
+        // 开启Email邮件通知时，必须保证Email字段不为空
+        if (EOpenStatus.OPEN_STATUS.getValue().equals(systemConfigVo.getStartEmailNotification()) && StringUtils.isEmpty(systemConfigVo.getEmail())) {
+            return ResultUtils.result(SysConf.ERROR, MessageConf.MUST_BE_SET_EMAIL);
+        }
+        SystemConfig systemConfig;
+        if (StringUtils.isEmpty(systemConfigVo.getId()))
+            systemConfig = new SystemConfig();
+        else
+            systemConfig = this.getById(systemConfigVo.getId());
+        // 设置七牛云相关
+        systemConfig.setLocalPictureBaseUrl(systemConfigVo.getLocalPictureBaseUrl());
+        systemConfig.setQiNiuPictureBaseUrl(systemConfigVo.getQiNiuPictureBaseUrl());
+        systemConfig.setQiNiuAccessKey(systemConfigVo.getQiNiuAccessKey());
+        systemConfig.setQiNiuSecretKey(systemConfigVo.getQiNiuSecretKey());
+        systemConfig.setQiNiuBucket(systemConfigVo.getQiNiuBucket());
+        systemConfig.setQiNiuArea(systemConfigVo.getQiNiuArea());
+        systemConfig.setUploadLocal(systemConfigVo.getUploadLocal());
+        systemConfig.setUploadQiNiu(systemConfigVo.getUploadQiNiu());
+        systemConfig.setPicturePriority(systemConfigVo.getPicturePriority());
+        // 设置邮箱相关
+        systemConfig.setEmail(systemConfigVo.getEmail());
+        systemConfig.setEmailPassword(systemConfigVo.getEmailPassword());
+        systemConfig.setEmailUserName(systemConfigVo.getEmailUserName());
+        systemConfig.setSmtpAddress(systemConfigVo.getSmtpAddress());
+        systemConfig.setSmtpPort(systemConfigVo.getSmtpPort());
+        systemConfig.setStartEmailNotification(systemConfigVo.getStartEmailNotification());
+        this.saveOrUpdate(systemConfig);
+        return ResultUtils.result(SysConf.SUCCESS, MessageConf.UPDATE_SUCCESS);
     }
 }

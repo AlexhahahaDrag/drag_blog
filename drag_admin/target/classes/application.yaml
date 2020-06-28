@@ -1,0 +1,72 @@
+#app�˿ں�
+server:
+  port: 8601
+
+spring:
+  #database config
+  datasource:
+    #database info
+    username: root
+    password: mysql
+    url: jdbc:mysql://localhost:3306/mogu_blog?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+
+    #��ʼ����С����С�����
+    initialSize: 20
+    minIdleL: 5
+    maxActive: 200
+
+    #���ӵȴ���ʱʱ��
+    maxWait: 60000
+
+    #���ø���ý���һ�μ�⣨�رտ������ӣ�
+    timeBetweenEvictionRunsMillis: 60000
+
+    #���������ڳ��е���С����ʱ��(����) 5 minutes
+    minEvictableIdleTimeMills: 300000
+
+    validationQuery: SELECT 1 FROM DUAL
+
+    dbcp2:
+      #й¶�����ӿ��Ա�ɾ���ĳ�ʱʱ��,��ֵӦ����Ӧ�ó����ѯ����ִ�е��ʱ��
+      remove-abandoned-timeout: 180
+      remove-abandoned-on-borrow: true
+
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+
+    #���ü��ͳ�����ص�filters��ȥ�����ؽ����sql�޷�ͳ�ƣ���wall�����ڷ���ǽ
+    filters: state,wall,log4j
+    maxPoolPreparedStatementPerConnectionSize: 20
+    userGlobalDataSourceState: true
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
+
+#mybatis
+mybatis-plus:
+  mapper-locations: classpath:/mapper/*Mapper.xml
+  #ʵ��ɨ�裬���package�ö��Ż��߷ֺŷָ�
+  type-aliases-package: com.alex.dragblog.commons.entity
+  global-config:
+    db-config:
+      #�������� 0�����ݿ�����id�� 1���û�����id 2��ȫ��Ψһid�����֣� 3��ȫ��Ψһid��uuid��
+      id-type: uuid
+      #�ֶβ��� ignored�������жϣ� not_null: ��null�� not_empry: �ǿ�
+      field-strategy: not_empty
+      #�շ��»���ת��
+      column-underline: true
+      #�߼�ɾ������
+      logic-delete-value: 0
+      logic-not-delete-value: 1
+    #ˢ��mapper  ��������
+    refresh: true
+    #ԭ������
+  configuration:
+    #�����շ幦��
+    map-underscore-to-camel-case: true
+    cache-enabled: false
+
+
+

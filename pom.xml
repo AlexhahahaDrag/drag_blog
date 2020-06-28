@@ -50,10 +50,11 @@
 
     <modules>
         <module>drag_admin</module>
-        <module>drag_commons</module>
-        <module>drag_utils</module>
-        <module>drag_xo</module>
         <module>drag_base</module>
+        <module>drag_commons</module>
+        <module>drag_gateway</module>
+        <module>drag_xo</module>
+        <module>drag_utils</module>
     </modules>
 
     <!--spring cloud依赖放到dependencyManagement中，起到版本管理作用-->
