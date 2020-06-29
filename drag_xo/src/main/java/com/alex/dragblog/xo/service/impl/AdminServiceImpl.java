@@ -4,6 +4,7 @@ import com.alex.dragblog.base.holder.RequestHolder;
 import com.alex.dragblog.base.service.impl.SuperServiceImpl;
 import com.alex.dragblog.commons.entity.Admin;
 import com.alex.dragblog.commons.feign.PictureFeignClient;
+import com.alex.dragblog.utils.IpUtils;
 import com.alex.dragblog.utils.RedisUtils;
 import com.alex.dragblog.utils.StringUtils;
 import com.alex.dragblog.xo.WebUtil;
@@ -17,6 +18,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.Map;
 
 /**
  *description:  管理员表服务实现类
@@ -85,7 +87,8 @@ public class AdminServiceImpl extends SuperServiceImpl<AdminMapper, Admin> imple
 
     @Override
     public void addOnlineAdmin(AdminVo adminVo) {
-            sss
+        HttpServletRequest request = RequestHolder.getRequest();
+        Map<String, String> map = IpUtils.
     }
 
     @Override
