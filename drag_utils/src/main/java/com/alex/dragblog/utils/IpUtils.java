@@ -27,6 +27,8 @@ import java.util.regex.Pattern;
 @Slf4j
 public class IpUtils {
 
+    private IpUtils(){};
+
     /**
      * description :获取当前网络ip
      * author :     alex

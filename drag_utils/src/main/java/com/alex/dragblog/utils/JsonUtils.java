@@ -46,6 +46,9 @@ public class JsonUtils {
 
     public static Logger log = LoggerFactory.getLogger(JsonUtils.class);
 
+    private JsonUtils() {
+    }
+
     /**
      * description:  把对象转换为json数据
      * author:       alex

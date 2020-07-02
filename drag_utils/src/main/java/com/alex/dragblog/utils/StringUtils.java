@@ -15,6 +15,7 @@ import java.util.UUID;
  */
 public class StringUtils {
 
+    private StringUtils(){}
 
     public static Logger log = LoggerFactory.getLogger(StringUtils.class);
     private static int machineId = 1; //集群号

@@ -42,7 +42,7 @@ public interface AdminService extends SuperService<Admin> {
      *@param:
      *@return:
      */
-    void addOnlineAdmin(AdminVo adminVo);
+    void addOnlineAdmin(Admin admin);
 
     /**
      *description:  编辑当前管理员信息

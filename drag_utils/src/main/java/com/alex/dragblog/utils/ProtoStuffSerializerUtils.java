@@ -19,6 +19,9 @@ import java.util.List;
  */
 public class ProtoStuffSerializerUtils {
 
+    private ProtoStuffSerializerUtils(){
+
+    }
     /**
      *description:  序列化对象
      *author:       alex

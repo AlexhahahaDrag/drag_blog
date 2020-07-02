@@ -11,6 +11,8 @@ import java.util.Map;
  */
 public class ResultUtils {
 
+    private ResultUtils(){}
+
     /**
      *description:
      *author:       alex

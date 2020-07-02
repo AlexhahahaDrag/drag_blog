@@ -1,7 +1,10 @@
 package com.alex.dragblog.admin.restapi;
 
+import com.alex.dragblog.xo.WebUtil;
+import com.alex.dragblog.xo.service.AdminService;
 import io.swagger.annotations.Api;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -16,4 +19,13 @@ import org.springframework.web.bind.annotation.RestController;
 @Api(value = "登陆管理相关接口", tags = {"登录管理相关接口"})
 @Slf4j
 public class LoginRestApi {
+
+    @Autowired
+    private WebUtil webUtil;
+
+    @Autowired
+    private AdminService adminService;
+
+    @Autowired
+    private RoleService roleService;
 }
