@@ -1,4 +1,4 @@
-#app¶Ë¿ÚºÅ
+#appï¿½Ë¿Úºï¿½
 server:
   port: 8601
 
@@ -12,24 +12,24 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
 
-    #³õÊ¼»¯´óĞ¡£¬×îĞ¡£¬×î´ó
+    #ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½Ğ¡ï¿½ï¿½ï¿½ï¿½Ğ¡ï¿½ï¿½ï¿½ï¿½ï¿½
     initialSize: 20
     minIdleL: 5
     maxActive: 200
 
-    #Á¬½ÓµÈ´ı³¬Ê±Ê±¼ä
+    #ï¿½ï¿½ï¿½ÓµÈ´ï¿½ï¿½ï¿½Ê±Ê±ï¿½ï¿½
     maxWait: 60000
 
-    #ÅäÖÃ¸ô¶à¾Ã½øĞĞÒ»´Î¼ì²â£¨¹Ø±Õ¿ÕÏĞÁ¬½Ó£©
+    #ï¿½ï¿½ï¿½Ã¸ï¿½ï¿½ï¿½Ã½ï¿½ï¿½ï¿½Ò»ï¿½Î¼ï¿½â£¨ï¿½Ø±Õ¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó£ï¿½
     timeBetweenEvictionRunsMillis: 60000
 
-    #ÅäÖÃÁ¬½ÓÔÚ³ØÖĞµÄ×îĞ¡Éú´æÊ±¼ä(ºÁÃë) 5 minutes
+    #ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú³ï¿½ï¿½Ğµï¿½ï¿½ï¿½Ğ¡ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½) 5 minutes
     minEvictableIdleTimeMills: 300000
 
     validationQuery: SELECT 1 FROM DUAL
 
     dbcp2:
-      #Ğ¹Â¶µÄÁ¬½Ó¿ÉÒÔ±»É¾³ıµÄ³¬Ê±Ê±¼ä,¸ÃÖµÓ¦¸ÃÊÇÓ¦ÓÃ³ÌĞò²éÑ¯¿ÉÄÜÖ´ĞĞµÄ×î³¤Ê±¼ä
+      #Ğ¹Â¶ï¿½ï¿½ï¿½ï¿½ï¿½Ó¿ï¿½ï¿½Ô±ï¿½É¾ï¿½ï¿½ï¿½Ä³ï¿½Ê±Ê±ï¿½ï¿½,ï¿½ï¿½ÖµÓ¦ï¿½ï¿½ï¿½ï¿½Ó¦ï¿½Ã³ï¿½ï¿½ï¿½ï¿½Ñ¯ï¿½ï¿½ï¿½ï¿½Ö´ï¿½Ğµï¿½ï¿½î³¤Ê±ï¿½ï¿½
       remove-abandoned-timeout: 180
       remove-abandoned-on-borrow: true
 
@@ -38,7 +38,7 @@ spring:
     testOnReturn: false
     poolPreparedStatements: true
 
-    #ÅäÖÃ¼à¿ØÍ³¼ÆÀ¹½ØµÄfilters£¬È¥µôºó¼à¿Ø½çÃæµÄsqlÎŞ·¨Í³¼Æ£¬¡®wall¡¯ÓÃÓÚ·À»ğÇ½
+    #ï¿½ï¿½ï¿½Ã¼ï¿½ï¿½Í³ï¿½ï¿½ï¿½ï¿½ï¿½Øµï¿½filtersï¿½ï¿½È¥ï¿½ï¿½ï¿½ï¿½ï¿½Ø½ï¿½ï¿½ï¿½ï¿½sqlï¿½Ş·ï¿½Í³ï¿½Æ£ï¿½ï¿½ï¿½wallï¿½ï¿½ï¿½ï¿½ï¿½Ú·ï¿½ï¿½ï¿½Ç½
     filters: state,wall,log4j
     maxPoolPreparedStatementPerConnectionSize: 20
     userGlobalDataSourceState: true
@@ -47,26 +47,35 @@ spring:
 #mybatis
 mybatis-plus:
   mapper-locations: classpath:/mapper/*Mapper.xml
-  #ÊµÌåÉ¨Ãè£¬¶à¸öpackageÓÃ¶ººÅ»òÕß·ÖºÅ·Ö¸ô
+  #Êµï¿½ï¿½É¨ï¿½è£¬ï¿½ï¿½ï¿½packageï¿½Ã¶ï¿½ï¿½Å»ï¿½ï¿½ß·ÖºÅ·Ö¸ï¿½
   type-aliases-package: com.alex.dragblog.commons.entity
   global-config:
     db-config:
-      #Ö÷¼üÀàĞÍ 0£ºÊı¾İ¿â×ÔÔöid£¬ 1£ºÓÃ»§ÊäÈëid 2£ºÈ«¾ÖÎ¨Ò»id£¨Êı×Ö£© 3£ºÈ«¾ÖÎ¨Ò»id£¨uuid£©
+      #ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 0ï¿½ï¿½ï¿½ï¿½ï¿½İ¿ï¿½ï¿½ï¿½ï¿½ï¿½idï¿½ï¿½ 1ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½id 2ï¿½ï¿½È«ï¿½ï¿½Î¨Ò»idï¿½ï¿½ï¿½ï¿½ï¿½Ö£ï¿½ 3ï¿½ï¿½È«ï¿½ï¿½Î¨Ò»idï¿½ï¿½uuidï¿½ï¿½
       id-type: uuid
-      #×Ö¶Î²ßÂÔ ignored£ººöÂÔÅĞ¶Ï£¬ not_null: ·Çnull£¬ not_empry: ·Ç¿Õ
+      #ï¿½Ö¶Î²ï¿½ï¿½ï¿½ ignoredï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ğ¶Ï£ï¿½ not_null: ï¿½ï¿½nullï¿½ï¿½ not_empry: ï¿½Ç¿ï¿½
       field-strategy: not_empty
-      #ÍÕ·åÏÂ»®Ïß×ª»¯
+      #ï¿½Õ·ï¿½ï¿½Â»ï¿½ï¿½ï¿½×ªï¿½ï¿½
       column-underline: true
-      #Âß¼­É¾³ıÅäÖÃ
+      #ï¿½ß¼ï¿½É¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
       logic-delete-value: 0
       logic-not-delete-value: 1
-    #Ë¢ĞÂmapper  µ÷ÊÔÉñÆ÷
+    #Ë¢ï¿½ï¿½mapper  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     refresh: true
-    #Ô­ÉúÅäÖÃ
+    #Ô­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
   configuration:
-    #¿ªÆôÍÕ·å¹¦ÄÜ
+    #ï¿½ï¿½ï¿½ï¿½ï¿½Õ·å¹¦ï¿½ï¿½
     map-underscore-to-camel-case: true
     cache-enabled: false
 
-
+#jwté…ç½®
+tokenHead: bearer_
+tokenHeader: Authorization
+isRememberMeExpiresSecond: 259200 #è®°ä½è´¦å·æ—¶é—´3å¤©
+audience:
+  clientId: 098f6bcd4621d373cade4e832627b4f6
+  base64Secret: MDk4ZjZiY2Q0NjIxZDM3M2NhZGU0ZTgzMjYyN2I0ZjY
+  name: dragBlog
+  expiresSecond: 3600 #1å°æ—¶
+  refreshedSecond: 300 #åˆ·æ–°tokenæ—¶é—´5åˆ†é’Ÿ
 

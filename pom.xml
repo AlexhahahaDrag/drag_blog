@@ -32,6 +32,7 @@
         <aliyun.java.sdk.core.version>3.2.5</aliyun.java.sdk.core.version>
         <mybatis.plus.boot.starter.version>3.1.2</mybatis.plus.boot.starter.version>
         <jjwt.version>0.7.0</jjwt.version>
+        <java.jwt.version>3.2.0</java.jwt.version>
         <druid.version>1.1.8</druid.version>
         <google.code.gson.version>2.7</google.code.gson.version>
         <lombok.version>1.18.10</lombok.version>

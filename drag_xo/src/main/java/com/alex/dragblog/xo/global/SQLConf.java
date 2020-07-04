@@ -26,7 +26,7 @@ public class SQLConf extends BaseSQLConf {
     public final static String ADMINUID = "admin_uid";
     public final static String ROLEUID = "role_uid";
     public final static String PERMISSIONUID = "permission_uid";
-    public final static String ROLENAEM = "role_name";
+    public final static String ROLENAME = "role_name";
     public final static String PERMISSIONNAME = "permission_name";
     public final static String PARENTID = "parent_id";
     public final static String USER_NAME = "user_name";

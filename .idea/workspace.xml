@@ -2,23 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd1b4a6c-7137-415d-a142-3eaa1dc4d8d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/drag_base/src/main/java/com/alex/dragblog/base/validator/annotion/NotBlank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drag_base/src/main/java/com/alex/dragblog/base/validator/group/Insert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drag_commons/src/main/java/com/alex/dragblog/commons/entity/OnlineAdmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drag_utils/src/main/java/com/alex/dragblog/utils/DateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drag_xo/src/main/java/com/alex/dragblog/xo/service/RoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drag_xo/src/main/java/com/alex/dragblog/xo/service/impl/RoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drag_xo/src/main/java/com/alex/dragblog/xo/vo/RoleVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drag_base/src/main/java/com/alex/dragblog/base/enums/EMenuType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drag_base/src/main/java/com/alex/dragblog/base/global/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drag_base/src/main/java/com/alex/dragblog/base/validator/annotion/IntegerNotNull.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drag_base/src/main/java/com/alex/dragblog/base/validator/contraint/IdValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drag_base/src/main/java/com/alex/dragblog/base/validator/contraint/IntegerValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drag_base/src/main/java/com/alex/dragblog/base/validator/contraint/LongValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drag_base/src/main/java/com/alex/dragblog/base/validator/contraint/StringValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drag_commons/src/main/java/com/alex/dragblog/commons/config/JwtHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drag_commons/src/main/java/com/alex/dragblog/commons/config/jwt/Audience.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drag_commons/src/main/java/com/alex/dragblog/commons/entity/CategoryMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drag_commons/src/main/java/com/alex/dragblog/commons/security/SecurityUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drag_xo/src/main/java/com/alex/dragblog/xo/mapper/CategoryMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drag_xo/src/main/java/com/alex/dragblog/xo/mapper/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drag_xo/src/main/java/com/alex/dragblog/xo/service/CategoryMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drag_xo/src/main/java/com/alex/dragblog/xo/service/impl/CategoryMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drag_xo/src/main/java/com/alex/dragblog/xo/vo/CategoryMenuVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drag_xo/src/main/resources/mapper/RoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_admin/drag_admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/drag_admin/drag_admin.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/drag_admin/src/main/java/com/alex/dragblog/admin/restapi/LoginRestApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/drag_admin/src/main/java/com/alex/dragblog/admin/restapi/LoginRestApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_utils/src/main/java/com/alex/dragblog/utils/IpUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/drag_utils/src/main/java/com/alex/dragblog/utils/IpUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_utils/src/main/java/com/alex/dragblog/utils/JsonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/drag_utils/src/main/java/com/alex/dragblog/utils/JsonUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_utils/src/main/java/com/alex/dragblog/utils/ProtoStuffSerializerUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/drag_utils/src/main/java/com/alex/dragblog/utils/ProtoStuffSerializerUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_utils/src/main/java/com/alex/dragblog/utils/RedisUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/drag_utils/src/main/java/com/alex/dragblog/utils/RedisUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_utils/src/main/java/com/alex/dragblog/utils/ResultUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/drag_utils/src/main/java/com/alex/dragblog/utils/ResultUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_utils/src/main/java/com/alex/dragblog/utils/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/drag_utils/src/main/java/com/alex/dragblog/utils/StringUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_xo/src/main/java/com/alex/dragblog/xo/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/drag_xo/src/main/java/com/alex/dragblog/xo/service/AdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_xo/src/main/java/com/alex/dragblog/xo/service/impl/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/drag_xo/src/main/java/com/alex/dragblog/xo/service/impl/AdminServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_admin/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/drag_admin/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_base/drag_base.iml" beforeDir="false" afterPath="$PROJECT_DIR$/drag_base/drag_base.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_base/src/main/java/com/alex/dragblog/base/validator/annotion/IdValid.java" beforeDir="false" afterPath="$PROJECT_DIR$/drag_base/src/main/java/com/alex/dragblog/base/validator/annotion/IdValid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_base/src/main/java/com/alex/dragblog/base/validator/annotion/LongNotNull.java" beforeDir="false" afterPath="$PROJECT_DIR$/drag_base/src/main/java/com/alex/dragblog/base/validator/annotion/LongNotNull.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_base/src/main/java/com/alex/dragblog/base/validator/annotion/NotBlank.java" beforeDir="false" afterPath="$PROJECT_DIR$/drag_base/src/main/java/com/alex/dragblog/base/validator/annotion/NotBlank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_commons/drag_commons.iml" beforeDir="false" afterPath="$PROJECT_DIR$/drag_commons/drag_commons.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_utils/drag_utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/drag_utils/drag_utils.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/drag_utils/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_xo/drag_xo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/drag_xo/drag_xo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_xo/src/main/java/com/alex/dragblog/xo/global/SQLConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/drag_xo/src/main/java/com/alex/dragblog/xo/global/SQLConf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_xo/src/main/java/com/alex/dragblog/xo/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/drag_xo/src/main/java/com/alex/dragblog/xo/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_xo/src/main/java/com/alex/dragblog/xo/vo/RoleVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/drag_xo/src/main/java/com/alex/dragblog/xo/vo/RoleVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,11 +63,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="FxmlFile" />
         <option value="spring-beans.schema" />
         <option value="AnnotationType" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -99,22 +117,22 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/drag_gateway/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/drag_xo/src/main/resources/mapper" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.alex.dragblog.xo.global" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\drag_blog\drag_xo\src\main\resources\mapper" />
       <recent name="D:\project\drag_blog\drag_gateway\src\main\resources" />
       <recent name="D:\project\drag_blog" />
       <recent name="D:\project\drag_blog\drag_admin\src\main\resources" />
       <recent name="D:\project\drag_blog\drag_admin" />
-      <recent name="D:\project\drag_blog\drag_commons" />
     </key>
   </component>
   <component name="RunManager" selected="Application.IpUtils">
@@ -185,7 +203,8 @@
       <workItem from="1593242271150" duration="11799000" />
       <workItem from="1593348662738" duration="6163000" />
       <workItem from="1593433348202" duration="5091000" />
-      <workItem from="1593698071776" duration="3996000" />
+      <workItem from="1593698071776" duration="4053000" />
+      <workItem from="1593823640850" duration="14715000" />
     </task>
     <task id="LOCAL-00001" summary="add feign">
       <created>1593352544214</created>
@@ -208,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593438426161</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="finish adminService;&#10;add roleService;">
+      <created>1593702104871</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1593702104871</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +244,8 @@
     <MESSAGE value="add feign" />
     <MESSAGE value="add" />
     <MESSAGE value="add ipUtils" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ipUtils" />
+    <MESSAGE value="finish adminService;&#10;add roleService;" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish adminService;&#10;add roleService;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="343" y="139" key="#Project_Structure" timestamp="1593262676414">
@@ -229,10 +256,10 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="191" y="189" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1500.960@0.0.1500.960" timestamp="1593178086792" />
-    <state x="931" y="199" key="#com.intellij.ide.util.MemberChooser" timestamp="1593351549662">
+    <state x="931" y="199" key="#com.intellij.ide.util.MemberChooser" timestamp="1593854529042">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="931" y="199" key="#com.intellij.ide.util.MemberChooser/0.0.1500.960@0.0.1500.960" timestamp="1593351549662" />
+    <state x="931" y="199" key="#com.intellij.ide.util.MemberChooser/0.0.1500.960@0.0.1500.960" timestamp="1593854529042" />
     <state x="857" y="261" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1593250040251">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -245,10 +272,10 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="384" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1500.960@0.0.1500.960" timestamp="1593246280063" />
-    <state x="240" y="74" key="CommitChangelistDialog2" timestamp="1593438425298">
+    <state x="240" y="74" key="CommitChangelistDialog2" timestamp="1593702104049">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="240" y="74" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1593438425298" />
+    <state x="240" y="74" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1593702104049" />
     <state width="1458" height="316" key="GridCell.Tab.0.bottom" timestamp="1593438446453">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -301,18 +328,18 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="518" y="191" key="RollbackChangesDialog/0.0.1500.960@0.0.1500.960" timestamp="1593262711426" />
-    <state x="320" y="201" key="SettingsEditor" timestamp="1593700997187">
+    <state x="506" y="122" key="SettingsEditor" timestamp="1593854036330">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="320" y="201" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1593700997187" />
-    <state x="343" y="213" key="Vcs.Push.Dialog.v2" timestamp="1593438431711">
+    <state x="506" y="122" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1593854036330" />
+    <state x="343" y="213" key="Vcs.Push.Dialog.v2" timestamp="1593702114218">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="343" y="213" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1593438431711" />
-    <state x="806" y="218" width="641" height="524" key="find.popup" timestamp="1593700841720">
+    <state x="343" y="213" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1593702114218" />
+    <state x="806" y="218" width="641" height="524" key="find.popup" timestamp="1593825166090">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="806" y="218" width="641" height="524" key="find.popup/0.0.1500.960@0.0.1500.960" timestamp="1593700841720" />
+    <state x="806" y="218" width="641" height="524" key="find.popup/0.0.1500.960@0.0.1500.960" timestamp="1593825166090" />
     <state x="234" y="364" key="new project wizard" timestamp="1593349968067">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
