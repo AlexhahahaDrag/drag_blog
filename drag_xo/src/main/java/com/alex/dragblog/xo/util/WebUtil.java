@@ -1,4 +1,4 @@
-package com.alex.dragblog.xo;
+package com.alex.dragblog.xo.util;
 
 import com.alex.dragblog.base.enums.EOpenStatus;
 import com.alex.dragblog.commons.entity.SystemConfig;
@@ -15,7 +15,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
 /**
  *description:  web有关的工具类
  *author:       alex

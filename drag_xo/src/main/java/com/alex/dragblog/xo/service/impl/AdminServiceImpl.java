@@ -7,7 +7,7 @@ import com.alex.dragblog.commons.entity.Admin;
 import com.alex.dragblog.commons.entity.OnlineAdmin;
 import com.alex.dragblog.commons.feign.PictureFeignClient;
 import com.alex.dragblog.utils.*;
-import com.alex.dragblog.xo.WebUtil;
+import com.alex.dragblog.xo.util.WebUtil;
 import com.alex.dragblog.xo.global.MessageConf;
 import com.alex.dragblog.xo.global.RedisConf;
 import com.alex.dragblog.xo.global.SQLConf;

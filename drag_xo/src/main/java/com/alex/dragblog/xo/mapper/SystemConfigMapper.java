@@ -2,6 +2,7 @@ package com.alex.dragblog.xo.mapper;
 
 import com.alex.dragblog.base.SuperMapper;
 import com.alex.dragblog.commons.entity.SystemConfig;
+import org.apache.ibatis.annotations.Mapper;
 
 /**
  *description:  系统配置mapper
@@ -10,6 +11,5 @@ import com.alex.dragblog.commons.entity.SystemConfig;
  *version:      1.0.0
  */
 public interface SystemConfigMapper extends SuperMapper<SystemConfig> {
-
 
 }

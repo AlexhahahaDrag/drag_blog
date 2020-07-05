@@ -15,7 +15,7 @@
         <module name="drag_utils" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8">
       <module name="drag_admin" target="1.8" />
       <module name="drag_base" target="1.8" />
       <module name="drag_blog" target="1.8" />

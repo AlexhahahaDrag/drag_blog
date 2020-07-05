@@ -3,6 +3,8 @@ package com.alex.dragblog.commons.feign;
 import com.alex.dragblog.base.vo.FileVo;
 import org.springframework.cloud.openfeign.FeignAutoConfiguration;
 import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
 /**
@@ -28,6 +30,7 @@ public interface PictureFeignClient {
      * @ApiImplicitParam(name = "code", value = "分割符", required = false, dataType = "String")
      * @return :
      */
+    @RequestMapping(value = "/file/getPicture", method = RequestMethod.GET)
     String getPicture(@RequestParam("fileIds") String fileIds, @RequestParam("code") String code);
 
 
@@ -37,5 +40,6 @@ public interface PictureFeignClient {
      * @param :     fileVo
      * @return :
      */
+    @RequestMapping(value = "/file/uploadPicsByUrl2", method = RequestMethod.POST)
     String uploadPicsByUrl(FileVo fileVo);
 }

@@ -2,41 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd1b4a6c-7137-415d-a142-3eaa1dc4d8d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/drag_base/src/main/java/com/alex/dragblog/base/enums/EMenuType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drag_base/src/main/java/com/alex/dragblog/base/global/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drag_base/src/main/java/com/alex/dragblog/base/validator/annotion/IntegerNotNull.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drag_base/src/main/java/com/alex/dragblog/base/validator/contraint/IdValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drag_base/src/main/java/com/alex/dragblog/base/validator/contraint/IntegerValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drag_base/src/main/java/com/alex/dragblog/base/validator/contraint/LongValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drag_base/src/main/java/com/alex/dragblog/base/validator/contraint/StringValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drag_commons/src/main/java/com/alex/dragblog/commons/config/JwtHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drag_commons/src/main/java/com/alex/dragblog/commons/config/jwt/Audience.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drag_commons/src/main/java/com/alex/dragblog/commons/entity/CategoryMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drag_commons/src/main/java/com/alex/dragblog/commons/security/SecurityUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drag_xo/src/main/java/com/alex/dragblog/xo/mapper/CategoryMenuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drag_xo/src/main/java/com/alex/dragblog/xo/mapper/RoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drag_xo/src/main/java/com/alex/dragblog/xo/service/CategoryMenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drag_xo/src/main/java/com/alex/dragblog/xo/service/impl/CategoryMenuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drag_xo/src/main/java/com/alex/dragblog/xo/vo/CategoryMenuVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drag_xo/src/main/resources/mapper/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/数据库脚本/drag_blog.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drag_admin/src/main/java/com/alex/dragblog/admin/config/DruidConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drag_admin/src/main/java/com/alex/dragblog/admin/config/GlobalExceptionConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drag_admin/src/main/java/com/alex/dragblog/admin/config/Swagger2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drag_base/src/main/java/com/alex/dragblog/base/exception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drag_base/src/main/java/com/alex/dragblog/base/handler/HandlerExceptionResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drag_utils/src/main/java/com/alex/dragblog/utils/CheckUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drag_xo/src/main/resources/mapper/SystemConfigMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/drag_admin/drag_admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/drag_admin/drag_admin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/drag_admin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_admin/src/main/java/com/alex/dragblog/admin/AdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/drag_admin/src/main/java/com/alex/dragblog/admin/AdminApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/drag_admin/src/main/java/com/alex/dragblog/admin/restapi/LoginRestApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/drag_admin/src/main/java/com/alex/dragblog/admin/restapi/LoginRestApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/drag_admin/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/drag_admin/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_admin/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/drag_admin/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_admin/target/classes/com/alex/dragblog/admin/AdminApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/drag_admin/target/classes/com/alex/dragblog/admin/AdminApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_admin/target/test-classes/com/alex/dragblog/admin/AdminApplicationTests.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/drag_base/drag_base.iml" beforeDir="false" afterPath="$PROJECT_DIR$/drag_base/drag_base.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_base/src/main/java/com/alex/dragblog/base/validator/annotion/IdValid.java" beforeDir="false" afterPath="$PROJECT_DIR$/drag_base/src/main/java/com/alex/dragblog/base/validator/annotion/IdValid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_base/src/main/java/com/alex/dragblog/base/validator/annotion/LongNotNull.java" beforeDir="false" afterPath="$PROJECT_DIR$/drag_base/src/main/java/com/alex/dragblog/base/validator/annotion/LongNotNull.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_base/src/main/java/com/alex/dragblog/base/validator/annotion/NotBlank.java" beforeDir="false" afterPath="$PROJECT_DIR$/drag_base/src/main/java/com/alex/dragblog/base/validator/annotion/NotBlank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_base/target/classes/com/alex/dragblog/base/global/BaseSysConf.class" beforeDir="false" afterPath="$PROJECT_DIR$/drag_base/target/classes/com/alex/dragblog/base/global/BaseSysConf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_base/target/classes/com/alex/dragblog/base/validator/annotion/IdValid.class" beforeDir="false" afterPath="$PROJECT_DIR$/drag_base/target/classes/com/alex/dragblog/base/validator/annotion/IdValid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_base/target/classes/com/alex/dragblog/base/validator/annotion/LongNotNull.class" beforeDir="false" afterPath="$PROJECT_DIR$/drag_base/target/classes/com/alex/dragblog/base/validator/annotion/LongNotNull.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_base/target/classes/com/alex/dragblog/base/vo/BaseVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/drag_base/target/classes/com/alex/dragblog/base/vo/BaseVo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_base/target/classes/com/alex/dragblog/base/vo/PageInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/drag_base/target/classes/com/alex/dragblog/base/vo/PageInfo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/drag_commons/drag_commons.iml" beforeDir="false" afterPath="$PROJECT_DIR$/drag_commons/drag_commons.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_commons/src/main/java/com/alex/dragblog/commons/feign/PictureFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/drag_commons/src/main/java/com/alex/dragblog/commons/feign/PictureFeignClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/drag_utils/drag_utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/drag_utils/drag_utils.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/drag_utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/drag_utils/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_utils/target/classes/com/alex/dragblog/utils/IpUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/drag_utils/target/classes/com/alex/dragblog/utils/IpUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_utils/target/classes/com/alex/dragblog/utils/JsonUtils$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/drag_utils/target/classes/com/alex/dragblog/utils/JsonUtils$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_utils/target/classes/com/alex/dragblog/utils/JsonUtils$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/drag_utils/target/classes/com/alex/dragblog/utils/JsonUtils$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_utils/target/classes/com/alex/dragblog/utils/JsonUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/drag_utils/target/classes/com/alex/dragblog/utils/JsonUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_utils/target/classes/com/alex/dragblog/utils/ProtoStuffSerializerUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/drag_utils/target/classes/com/alex/dragblog/utils/ProtoStuffSerializerUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_utils/target/classes/com/alex/dragblog/utils/RedisUtils$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/drag_utils/target/classes/com/alex/dragblog/utils/RedisUtils$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_utils/target/classes/com/alex/dragblog/utils/RedisUtils$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/drag_utils/target/classes/com/alex/dragblog/utils/RedisUtils$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_utils/target/classes/com/alex/dragblog/utils/RedisUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/drag_utils/target/classes/com/alex/dragblog/utils/RedisUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_utils/target/classes/com/alex/dragblog/utils/ResultUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/drag_utils/target/classes/com/alex/dragblog/utils/ResultUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_utils/target/classes/com/alex/dragblog/utils/StringUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/drag_utils/target/classes/com/alex/dragblog/utils/StringUtils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/drag_xo/drag_xo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/drag_xo/drag_xo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_xo/src/main/java/com/alex/dragblog/xo/global/SQLConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/drag_xo/src/main/java/com/alex/dragblog/xo/global/SQLConf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_xo/src/main/java/com/alex/dragblog/xo/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/drag_xo/src/main/java/com/alex/dragblog/xo/service/impl/RoleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_xo/src/main/java/com/alex/dragblog/xo/vo/RoleVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/drag_xo/src/main/java/com/alex/dragblog/xo/vo/RoleVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_xo/src/main/java/com/alex/dragblog/xo/WebUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/drag_xo/src/main/java/com/alex/dragblog/xo/util/WebUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_xo/src/main/java/com/alex/dragblog/xo/global/SysConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/drag_xo/src/main/java/com/alex/dragblog/xo/global/SysConf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_xo/src/main/java/com/alex/dragblog/xo/mapper/SystemConfigMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/drag_xo/src/main/java/com/alex/dragblog/xo/mapper/SystemConfigMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_xo/src/main/java/com/alex/dragblog/xo/service/impl/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/drag_xo/src/main/java/com/alex/dragblog/xo/service/impl/AdminServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_xo/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_xo/target/classes/com/alex/dragblog/xo/WebUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_xo/target/classes/com/alex/dragblog/xo/global/SQLConf.class" beforeDir="false" afterPath="$PROJECT_DIR$/drag_xo/target/classes/com/alex/dragblog/xo/global/SQLConf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_xo/target/classes/com/alex/dragblog/xo/global/SysConf.class" beforeDir="false" afterPath="$PROJECT_DIR$/drag_xo/target/classes/com/alex/dragblog/xo/global/SysConf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_xo/target/classes/com/alex/dragblog/xo/mapper/AdminMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/drag_xo/target/classes/com/alex/dragblog/xo/mapper/AdminMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_xo/target/classes/com/alex/dragblog/xo/service/AdminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/drag_xo/target/classes/com/alex/dragblog/xo/service/AdminService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_xo/target/classes/com/alex/dragblog/xo/service/impl/AdminServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/drag_xo/target/classes/com/alex/dragblog/xo/service/impl/AdminServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +124,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -129,13 +145,13 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\project\drag_blog\drag_xo\src\main\resources\mapper" />
+      <recent name="D:\project\drag_blog\drag_admin\src\main\java\com\alex\dragblog\admin\config" />
       <recent name="D:\project\drag_blog\drag_gateway\src\main\resources" />
       <recent name="D:\project\drag_blog" />
       <recent name="D:\project\drag_blog\drag_admin\src\main\resources" />
-      <recent name="D:\project\drag_blog\drag_admin" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IpUtils">
+  <component name="RunManager" selected="Spring Boot.AdminApplication">
     <configuration name="IpUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.alex.dragblog.utils.IpUtils" />
       <module name="drag_utils" />
@@ -152,6 +168,11 @@
     <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="drag_admin" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.alex.dragblog.admin.AdminApplication" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="D:\soft\java\java8\jre" />
+      <option name="SHORTEN_COMMAND_LINE" value="CLASSPATH_FILE" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -170,6 +191,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.IpUtils" />
+      <item itemvalue="Spring Boot.AdminApplication" />
+      <item itemvalue="Spring Boot.DragGatewayApplication" />
+      <item itemvalue="Spring Boot.UtilsApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.IpUtils" />
@@ -204,7 +231,8 @@
       <workItem from="1593348662738" duration="6163000" />
       <workItem from="1593433348202" duration="5091000" />
       <workItem from="1593698071776" duration="4053000" />
-      <workItem from="1593823640850" duration="14715000" />
+      <workItem from="1593823640850" duration="14773000" />
+      <workItem from="1593936341666" duration="9594000" />
     </task>
     <task id="LOCAL-00001" summary="add feign">
       <created>1593352544214</created>
@@ -234,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593702104871</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="jwt + security">
+      <created>1593872175444</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1593872175444</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,21 +280,22 @@
     <MESSAGE value="add" />
     <MESSAGE value="add ipUtils" />
     <MESSAGE value="finish adminService;&#10;add roleService;" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish adminService;&#10;add roleService;" />
+    <MESSAGE value="jwt + security" />
+    <option name="LAST_COMMIT_MESSAGE" value="jwt + security" />
   </component>
   <component name="WindowStateProjectService">
     <state x="343" y="139" key="#Project_Structure" timestamp="1593262676414">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="343" y="139" key="#Project_Structure/0.0.1500.960@0.0.1500.960" timestamp="1593262676414" />
-    <state x="191" y="189" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593178086792">
+    <state x="191" y="189" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593960144257">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="191" y="189" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1500.960@0.0.1500.960" timestamp="1593178086792" />
-    <state x="931" y="199" key="#com.intellij.ide.util.MemberChooser" timestamp="1593854529042">
+    <state x="191" y="189" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1500.960@0.0.1500.960" timestamp="1593960144257" />
+    <state x="931" y="199" key="#com.intellij.ide.util.MemberChooser" timestamp="1593959538863">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="931" y="199" key="#com.intellij.ide.util.MemberChooser/0.0.1500.960@0.0.1500.960" timestamp="1593854529042" />
+    <state x="931" y="199" key="#com.intellij.ide.util.MemberChooser/0.0.1500.960@0.0.1500.960" timestamp="1593959538863" />
     <state x="857" y="261" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1593250040251">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -272,70 +308,70 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="384" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1500.960@0.0.1500.960" timestamp="1593246280063" />
-    <state x="240" y="74" key="CommitChangelistDialog2" timestamp="1593702104049">
+    <state x="240" y="74" key="CommitChangelistDialog2" timestamp="1593872174515">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="240" y="74" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1593702104049" />
-    <state width="1458" height="316" key="GridCell.Tab.0.bottom" timestamp="1593438446453">
+    <state x="240" y="74" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1593872174515" />
+    <state width="1458" height="536" key="GridCell.Tab.0.bottom" timestamp="1593962044490">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="316" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1593438446453" />
-    <state width="1458" height="316" key="GridCell.Tab.0.center" timestamp="1593438446452">
+    <state width="1458" height="536" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1593962044490" />
+    <state width="1458" height="536" key="GridCell.Tab.0.center" timestamp="1593962044489">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="316" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1593438446452" />
-    <state width="1458" height="316" key="GridCell.Tab.0.left" timestamp="1593438446452">
+    <state width="1458" height="536" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1593962044489" />
+    <state width="1458" height="536" key="GridCell.Tab.0.left" timestamp="1593962044489">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="316" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1593438446452" />
-    <state width="1458" height="316" key="GridCell.Tab.0.right" timestamp="1593438446452">
+    <state width="1458" height="536" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1593962044489" />
+    <state width="1458" height="536" key="GridCell.Tab.0.right" timestamp="1593962044489">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="316" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1593438446452" />
-    <state width="1458" height="316" key="GridCell.Tab.1.bottom" timestamp="1593438446453">
+    <state width="1458" height="536" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1593962044489" />
+    <state width="1458" height="536" key="GridCell.Tab.1.bottom" timestamp="1593962044490">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="316" key="GridCell.Tab.1.bottom/0.0.1500.960@0.0.1500.960" timestamp="1593438446453" />
-    <state width="1458" height="316" key="GridCell.Tab.1.center" timestamp="1593438446453">
+    <state width="1458" height="536" key="GridCell.Tab.1.bottom/0.0.1500.960@0.0.1500.960" timestamp="1593962044490" />
+    <state width="1458" height="536" key="GridCell.Tab.1.center" timestamp="1593962044490">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="316" key="GridCell.Tab.1.center/0.0.1500.960@0.0.1500.960" timestamp="1593438446453" />
-    <state width="1458" height="316" key="GridCell.Tab.1.left" timestamp="1593438446453">
+    <state width="1458" height="536" key="GridCell.Tab.1.center/0.0.1500.960@0.0.1500.960" timestamp="1593962044490" />
+    <state width="1458" height="536" key="GridCell.Tab.1.left" timestamp="1593962044490">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="316" key="GridCell.Tab.1.left/0.0.1500.960@0.0.1500.960" timestamp="1593438446453" />
-    <state width="1458" height="316" key="GridCell.Tab.1.right" timestamp="1593438446453">
+    <state width="1458" height="536" key="GridCell.Tab.1.left/0.0.1500.960@0.0.1500.960" timestamp="1593962044490" />
+    <state width="1458" height="536" key="GridCell.Tab.1.right" timestamp="1593962044490">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="316" key="GridCell.Tab.1.right/0.0.1500.960@0.0.1500.960" timestamp="1593438446453" />
-    <state width="705" height="316" key="GridCell.Tab.2.bottom" timestamp="1593185325763">
+    <state width="1458" height="536" key="GridCell.Tab.1.right/0.0.1500.960@0.0.1500.960" timestamp="1593962044490" />
+    <state width="1458" height="536" key="GridCell.Tab.2.bottom" timestamp="1593962044490">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="705" height="316" key="GridCell.Tab.2.bottom/0.0.1500.960@0.0.1500.960" timestamp="1593185325763" />
-    <state width="705" height="316" key="GridCell.Tab.2.center" timestamp="1593185325763">
+    <state width="1458" height="536" key="GridCell.Tab.2.bottom/0.0.1500.960@0.0.1500.960" timestamp="1593962044490" />
+    <state width="1458" height="536" key="GridCell.Tab.2.center" timestamp="1593962044490">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="705" height="316" key="GridCell.Tab.2.center/0.0.1500.960@0.0.1500.960" timestamp="1593185325763" />
-    <state width="705" height="316" key="GridCell.Tab.2.left" timestamp="1593185325763">
+    <state width="1458" height="536" key="GridCell.Tab.2.center/0.0.1500.960@0.0.1500.960" timestamp="1593962044490" />
+    <state width="1458" height="536" key="GridCell.Tab.2.left" timestamp="1593962044490">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="705" height="316" key="GridCell.Tab.2.left/0.0.1500.960@0.0.1500.960" timestamp="1593185325763" />
-    <state width="705" height="316" key="GridCell.Tab.2.right" timestamp="1593185325763">
+    <state width="1458" height="536" key="GridCell.Tab.2.left/0.0.1500.960@0.0.1500.960" timestamp="1593962044490" />
+    <state width="1458" height="536" key="GridCell.Tab.2.right" timestamp="1593962044490">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="705" height="316" key="GridCell.Tab.2.right/0.0.1500.960@0.0.1500.960" timestamp="1593185325763" />
+    <state width="1458" height="536" key="GridCell.Tab.2.right/0.0.1500.960@0.0.1500.960" timestamp="1593962044490" />
     <state x="518" y="191" key="RollbackChangesDialog" timestamp="1593262711426">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="518" y="191" key="RollbackChangesDialog/0.0.1500.960@0.0.1500.960" timestamp="1593262711426" />
-    <state x="506" y="122" key="SettingsEditor" timestamp="1593854036330">
+    <state x="506" y="122" key="SettingsEditor" timestamp="1593960340060">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="506" y="122" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1593854036330" />
-    <state x="343" y="213" key="Vcs.Push.Dialog.v2" timestamp="1593702114218">
+    <state x="506" y="122" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1593960340060" />
+    <state x="343" y="213" key="Vcs.Push.Dialog.v2" timestamp="1593872184727">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="343" y="213" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1593702114218" />
+    <state x="343" y="213" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1593872184727" />
     <state x="806" y="218" width="641" height="524" key="find.popup" timestamp="1593825166090">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
