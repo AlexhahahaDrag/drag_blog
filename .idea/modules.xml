@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/drag_base/drag_base.iml" filepath="$PROJECT_DIR$/drag_base/drag_base.iml" />
       <module fileurl="file://$PROJECT_DIR$/drag_blog.iml" filepath="$PROJECT_DIR$/drag_blog.iml" />
       <module fileurl="file://$PROJECT_DIR$/drag_commons/drag_commons.iml" filepath="$PROJECT_DIR$/drag_commons/drag_commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drag_eureka/drag_eureka.iml" filepath="$PROJECT_DIR$/drag_eureka/drag_eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/drag_gateway/drag_gateway.iml" filepath="$PROJECT_DIR$/drag_gateway/drag_gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/drag_utils/drag_utils.iml" filepath="$PROJECT_DIR$/drag_utils/drag_utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/drag_xo/drag_xo.iml" filepath="$PROJECT_DIR$/drag_xo/drag_xo.iml" />

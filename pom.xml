@@ -53,6 +53,7 @@
         <module>drag_admin</module>
         <module>drag_base</module>
         <module>drag_commons</module>
+        <module>drag_eureka</module>
         <module>drag_gateway</module>
         <module>drag_xo</module>
         <module>drag_utils</module>

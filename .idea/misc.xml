@@ -10,8 +10,12 @@
         <option value="$PROJECT_DIR$/drag_xo/pom.xml" />
         <option value="$PROJECT_DIR$/drag_base/pom.xml" />
         <option value="$PROJECT_DIR$/drag_gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka/pom.xml" />
       </list>
     </option>
+  </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/drag_eureka/src/main/resources/application.yml" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="java8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />

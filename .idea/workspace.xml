@@ -2,56 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd1b4a6c-7137-415d-a142-3eaa1dc4d8d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/doc/数据库脚本/drag_blog.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drag_admin/src/main/java/com/alex/dragblog/admin/config/DruidConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drag_admin/src/main/java/com/alex/dragblog/admin/config/GlobalExceptionConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drag_admin/src/main/java/com/alex/dragblog/admin/config/Swagger2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drag_base/src/main/java/com/alex/dragblog/base/exception/BusinessException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drag_base/src/main/java/com/alex/dragblog/base/handler/HandlerExceptionResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drag_utils/src/main/java/com/alex/dragblog/utils/CheckUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drag_xo/src/main/resources/mapper/SystemConfigMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drag_admin/src/main/java/com/alex/dragblog/admin/annotation/AuthorityVerify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drag_admin/src/main/java/com/alex/dragblog/admin/annotation/OperationLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drag_admin/src/main/java/com/alex/dragblog/admin/restapi/AdminRestApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drag_base/src/main/java/com/alex/dragblog/base/enums/PlatformEnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_admin/drag_admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/drag_admin/drag_admin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/drag_admin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_admin/src/main/java/com/alex/dragblog/admin/AdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/drag_admin/src/main/java/com/alex/dragblog/admin/AdminApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_admin/src/main/java/com/alex/dragblog/admin/restapi/LoginRestApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/drag_admin/src/main/java/com/alex/dragblog/admin/restapi/LoginRestApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/drag_admin/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/drag_admin/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/drag_admin/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/drag_admin/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_admin/target/classes/com/alex/dragblog/admin/AdminApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/drag_admin/target/classes/com/alex/dragblog/admin/AdminApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_admin/target/test-classes/com/alex/dragblog/admin/AdminApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_base/drag_base.iml" beforeDir="false" afterPath="$PROJECT_DIR$/drag_base/drag_base.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_base/target/classes/com/alex/dragblog/base/global/BaseSysConf.class" beforeDir="false" afterPath="$PROJECT_DIR$/drag_base/target/classes/com/alex/dragblog/base/global/BaseSysConf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_base/target/classes/com/alex/dragblog/base/validator/annotion/IdValid.class" beforeDir="false" afterPath="$PROJECT_DIR$/drag_base/target/classes/com/alex/dragblog/base/validator/annotion/IdValid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_base/target/classes/com/alex/dragblog/base/validator/annotion/LongNotNull.class" beforeDir="false" afterPath="$PROJECT_DIR$/drag_base/target/classes/com/alex/dragblog/base/validator/annotion/LongNotNull.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_base/target/classes/com/alex/dragblog/base/vo/BaseVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/drag_base/target/classes/com/alex/dragblog/base/vo/BaseVo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_base/target/classes/com/alex/dragblog/base/vo/PageInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/drag_base/target/classes/com/alex/dragblog/base/vo/PageInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_commons/drag_commons.iml" beforeDir="false" afterPath="$PROJECT_DIR$/drag_commons/drag_commons.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_commons/src/main/java/com/alex/dragblog/commons/feign/PictureFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/drag_commons/src/main/java/com/alex/dragblog/commons/feign/PictureFeignClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_utils/drag_utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/drag_utils/drag_utils.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/drag_utils/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_utils/target/classes/com/alex/dragblog/utils/IpUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/drag_utils/target/classes/com/alex/dragblog/utils/IpUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_utils/target/classes/com/alex/dragblog/utils/JsonUtils$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/drag_utils/target/classes/com/alex/dragblog/utils/JsonUtils$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_utils/target/classes/com/alex/dragblog/utils/JsonUtils$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/drag_utils/target/classes/com/alex/dragblog/utils/JsonUtils$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_utils/target/classes/com/alex/dragblog/utils/JsonUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/drag_utils/target/classes/com/alex/dragblog/utils/JsonUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_utils/target/classes/com/alex/dragblog/utils/ProtoStuffSerializerUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/drag_utils/target/classes/com/alex/dragblog/utils/ProtoStuffSerializerUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_utils/target/classes/com/alex/dragblog/utils/RedisUtils$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/drag_utils/target/classes/com/alex/dragblog/utils/RedisUtils$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_utils/target/classes/com/alex/dragblog/utils/RedisUtils$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/drag_utils/target/classes/com/alex/dragblog/utils/RedisUtils$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_utils/target/classes/com/alex/dragblog/utils/RedisUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/drag_utils/target/classes/com/alex/dragblog/utils/RedisUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_utils/target/classes/com/alex/dragblog/utils/ResultUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/drag_utils/target/classes/com/alex/dragblog/utils/ResultUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_utils/target/classes/com/alex/dragblog/utils/StringUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/drag_utils/target/classes/com/alex/dragblog/utils/StringUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_xo/drag_xo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/drag_xo/drag_xo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_xo/src/main/java/com/alex/dragblog/xo/WebUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/drag_xo/src/main/java/com/alex/dragblog/xo/util/WebUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_xo/src/main/java/com/alex/dragblog/xo/global/SysConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/drag_xo/src/main/java/com/alex/dragblog/xo/global/SysConf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_xo/src/main/java/com/alex/dragblog/xo/mapper/SystemConfigMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/drag_xo/src/main/java/com/alex/dragblog/xo/mapper/SystemConfigMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_xo/src/main/java/com/alex/dragblog/xo/service/impl/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/drag_xo/src/main/java/com/alex/dragblog/xo/service/impl/AdminServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_xo/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_xo/target/classes/com/alex/dragblog/xo/WebUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_xo/target/classes/com/alex/dragblog/xo/global/SQLConf.class" beforeDir="false" afterPath="$PROJECT_DIR$/drag_xo/target/classes/com/alex/dragblog/xo/global/SQLConf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_xo/target/classes/com/alex/dragblog/xo/global/SysConf.class" beforeDir="false" afterPath="$PROJECT_DIR$/drag_xo/target/classes/com/alex/dragblog/xo/global/SysConf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_xo/target/classes/com/alex/dragblog/xo/mapper/AdminMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/drag_xo/target/classes/com/alex/dragblog/xo/mapper/AdminMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_xo/target/classes/com/alex/dragblog/xo/service/AdminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/drag_xo/target/classes/com/alex/dragblog/xo/service/AdminService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drag_xo/target/classes/com/alex/dragblog/xo/service/impl/AdminServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/drag_xo/target/classes/com/alex/dragblog/xo/service/impl/AdminServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_base/target/classes/META-INF/drag_base.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_commons/target/classes/META-INF/drag_commons.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_utils/target/classes/META-INF/drag_utils.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_xo/target/classes/META-INF/drag_xo.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,10 +46,10 @@
       <list>
         <option value="FxmlFile" />
         <option value="spring-beans.schema" />
-        <option value="AnnotationType" />
         <option value="Interface" />
-        <option value="Enum" />
         <option value="Class" />
+        <option value="AnnotationType" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -133,7 +99,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/drag_xo/src/main/resources/mapper" />
+    <property name="jdk.selected.JAVA_MODULE" value="java8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/drag_eureka/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -144,11 +111,11 @@
       <recent name="com.alex.dragblog.xo.global" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\drag_blog\drag_eureka\src\main\resources" />
       <recent name="D:\project\drag_blog\drag_xo\src\main\resources\mapper" />
       <recent name="D:\project\drag_blog\drag_admin\src\main\java\com\alex\dragblog\admin\config" />
       <recent name="D:\project\drag_blog\drag_gateway\src\main\resources" />
       <recent name="D:\project\drag_blog" />
-      <recent name="D:\project\drag_blog\drag_admin\src\main\resources" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.AdminApplication">
@@ -184,6 +151,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="drag_eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alex.dragblog.eureka.EurekaApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" value="D:\soft\java\java8\jre" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UtilsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="drag_utils" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.alex.dragblog.utils.UtilsApplication" />
@@ -196,6 +173,7 @@
       <item itemvalue="Spring Boot.AdminApplication" />
       <item itemvalue="Spring Boot.DragGatewayApplication" />
       <item itemvalue="Spring Boot.UtilsApplication" />
+      <item itemvalue="Spring Boot.EurekaApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -232,7 +210,10 @@
       <workItem from="1593433348202" duration="5091000" />
       <workItem from="1593698071776" duration="4053000" />
       <workItem from="1593823640850" duration="14773000" />
-      <workItem from="1593936341666" duration="9594000" />
+      <workItem from="1593936341666" duration="9772000" />
+      <workItem from="1594130399691" duration="919000" />
+      <workItem from="1594300857681" duration="4250000" />
+      <workItem from="1594644610128" duration="5240000" />
     </task>
     <task id="LOCAL-00001" summary="add feign">
       <created>1593352544214</created>
@@ -269,7 +250,21 @@
       <option name="project" value="LOCAL" />
       <updated>1593872175444</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="swagger2">
+      <created>1593962073744</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1593962073745</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add eureka">
+      <created>1594305760089</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1594305760089</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,21 +276,23 @@
     <MESSAGE value="add ipUtils" />
     <MESSAGE value="finish adminService;&#10;add roleService;" />
     <MESSAGE value="jwt + security" />
-    <option name="LAST_COMMIT_MESSAGE" value="jwt + security" />
+    <MESSAGE value="swagger2" />
+    <MESSAGE value="add eureka" />
+    <option name="LAST_COMMIT_MESSAGE" value="add eureka" />
   </component>
   <component name="WindowStateProjectService">
     <state x="343" y="139" key="#Project_Structure" timestamp="1593262676414">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="343" y="139" key="#Project_Structure/0.0.1500.960@0.0.1500.960" timestamp="1593262676414" />
-    <state x="191" y="189" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593960144257">
+    <state x="191" y="189" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594305070162">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="191" y="189" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1500.960@0.0.1500.960" timestamp="1593960144257" />
-    <state x="931" y="199" key="#com.intellij.ide.util.MemberChooser" timestamp="1593959538863">
+    <state x="191" y="189" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1500.960@0.0.1500.960" timestamp="1594305070162" />
+    <state x="931" y="199" key="#com.intellij.ide.util.MemberChooser" timestamp="1594303644814">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="931" y="199" key="#com.intellij.ide.util.MemberChooser/0.0.1500.960@0.0.1500.960" timestamp="1593959538863" />
+    <state x="931" y="199" key="#com.intellij.ide.util.MemberChooser/0.0.1500.960@0.0.1500.960" timestamp="1594303644814" />
     <state x="857" y="261" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1593250040251">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -308,58 +305,66 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="384" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1500.960@0.0.1500.960" timestamp="1593246280063" />
-    <state x="240" y="74" key="CommitChangelistDialog2" timestamp="1593872174515">
+    <state x="240" y="74" key="CommitChangelistDialog2" timestamp="1594305757533">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="240" y="74" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1593872174515" />
-    <state width="1458" height="536" key="GridCell.Tab.0.bottom" timestamp="1593962044490">
+    <state x="240" y="74" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1594305757533" />
+    <state x="27" y="79" key="DiffContextDialog" timestamp="1594305693831">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="536" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1593962044490" />
-    <state width="1458" height="536" key="GridCell.Tab.0.center" timestamp="1593962044489">
+    <state x="27" y="79" key="DiffContextDialog/0.0.1500.960@0.0.1500.960" timestamp="1594305693831" />
+    <state x="517" y="276" key="FileChooserDialogImpl" timestamp="1594304883483">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="536" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1593962044489" />
-    <state width="1458" height="536" key="GridCell.Tab.0.left" timestamp="1593962044489">
+    <state x="517" y="276" key="FileChooserDialogImpl/0.0.1500.960@0.0.1500.960" timestamp="1594304883483" />
+    <state width="1458" height="265" key="GridCell.Tab.0.bottom" timestamp="1594649857821">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="536" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1593962044489" />
-    <state width="1458" height="536" key="GridCell.Tab.0.right" timestamp="1593962044489">
+    <state width="1458" height="265" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1594649857821" />
+    <state width="1458" height="265" key="GridCell.Tab.0.center" timestamp="1594649857821">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="536" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1593962044489" />
-    <state width="1458" height="536" key="GridCell.Tab.1.bottom" timestamp="1593962044490">
+    <state width="1458" height="265" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1594649857821" />
+    <state width="1458" height="265" key="GridCell.Tab.0.left" timestamp="1594649857821">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="536" key="GridCell.Tab.1.bottom/0.0.1500.960@0.0.1500.960" timestamp="1593962044490" />
-    <state width="1458" height="536" key="GridCell.Tab.1.center" timestamp="1593962044490">
+    <state width="1458" height="265" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1594649857821" />
+    <state width="1458" height="265" key="GridCell.Tab.0.right" timestamp="1594649857821">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="536" key="GridCell.Tab.1.center/0.0.1500.960@0.0.1500.960" timestamp="1593962044490" />
-    <state width="1458" height="536" key="GridCell.Tab.1.left" timestamp="1593962044490">
+    <state width="1458" height="265" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1594649857821" />
+    <state width="1458" height="265" key="GridCell.Tab.1.bottom" timestamp="1594649857699">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="536" key="GridCell.Tab.1.left/0.0.1500.960@0.0.1500.960" timestamp="1593962044490" />
-    <state width="1458" height="536" key="GridCell.Tab.1.right" timestamp="1593962044490">
+    <state width="1458" height="265" key="GridCell.Tab.1.bottom/0.0.1500.960@0.0.1500.960" timestamp="1594649857699" />
+    <state width="1458" height="265" key="GridCell.Tab.1.center" timestamp="1594649857699">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="536" key="GridCell.Tab.1.right/0.0.1500.960@0.0.1500.960" timestamp="1593962044490" />
-    <state width="1458" height="536" key="GridCell.Tab.2.bottom" timestamp="1593962044490">
+    <state width="1458" height="265" key="GridCell.Tab.1.center/0.0.1500.960@0.0.1500.960" timestamp="1594649857699" />
+    <state width="1458" height="265" key="GridCell.Tab.1.left" timestamp="1594649857699">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="536" key="GridCell.Tab.2.bottom/0.0.1500.960@0.0.1500.960" timestamp="1593962044490" />
-    <state width="1458" height="536" key="GridCell.Tab.2.center" timestamp="1593962044490">
+    <state width="1458" height="265" key="GridCell.Tab.1.left/0.0.1500.960@0.0.1500.960" timestamp="1594649857699" />
+    <state width="1458" height="265" key="GridCell.Tab.1.right" timestamp="1594649857699">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="536" key="GridCell.Tab.2.center/0.0.1500.960@0.0.1500.960" timestamp="1593962044490" />
-    <state width="1458" height="536" key="GridCell.Tab.2.left" timestamp="1593962044490">
+    <state width="1458" height="265" key="GridCell.Tab.1.right/0.0.1500.960@0.0.1500.960" timestamp="1594649857699" />
+    <state width="1458" height="265" key="GridCell.Tab.2.bottom" timestamp="1594649857699">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="536" key="GridCell.Tab.2.left/0.0.1500.960@0.0.1500.960" timestamp="1593962044490" />
-    <state width="1458" height="536" key="GridCell.Tab.2.right" timestamp="1593962044490">
+    <state width="1458" height="265" key="GridCell.Tab.2.bottom/0.0.1500.960@0.0.1500.960" timestamp="1594649857699" />
+    <state width="1458" height="265" key="GridCell.Tab.2.center" timestamp="1594649857699">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="536" key="GridCell.Tab.2.right/0.0.1500.960@0.0.1500.960" timestamp="1593962044490" />
+    <state width="1458" height="265" key="GridCell.Tab.2.center/0.0.1500.960@0.0.1500.960" timestamp="1594649857699" />
+    <state width="1458" height="265" key="GridCell.Tab.2.left" timestamp="1594649857699">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="1458" height="265" key="GridCell.Tab.2.left/0.0.1500.960@0.0.1500.960" timestamp="1594649857699" />
+    <state width="1458" height="265" key="GridCell.Tab.2.right" timestamp="1594649857699">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="1458" height="265" key="GridCell.Tab.2.right/0.0.1500.960@0.0.1500.960" timestamp="1594649857699" />
     <state x="518" y="191" key="RollbackChangesDialog" timestamp="1593262711426">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -368,21 +373,32 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="506" y="122" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1593960340060" />
-    <state x="343" y="213" key="Vcs.Push.Dialog.v2" timestamp="1593872184727">
+    <state x="343" y="213" key="Vcs.Push.Dialog.v2" timestamp="1594305767245">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="343" y="213" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1593872184727" />
+    <state x="343" y="213" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1594305767245" />
     <state x="806" y="218" width="641" height="524" key="find.popup" timestamp="1593825166090">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="806" y="218" width="641" height="524" key="find.popup/0.0.1500.960@0.0.1500.960" timestamp="1593825166090" />
-    <state x="234" y="364" key="new project wizard" timestamp="1593349968067">
+    <state x="234" y="330" key="new project wizard" timestamp="1594301074667">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="234" y="364" key="new project wizard/0.0.1500.960@0.0.1500.960" timestamp="1593349968067" />
+    <state x="234" y="330" key="new project wizard/0.0.1500.960@0.0.1500.960" timestamp="1594301074667" />
     <state x="788" y="210" width="672" height="678" key="search.everywhere.popup" timestamp="1593180799575">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="788" y="210" width="672" height="678" key="search.everywhere.popup/0.0.1500.960@0.0.1500.960" timestamp="1593180799575" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/drag_admin/src/main/java/com/alex/dragblog/admin/restapi/LoginRestApi.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

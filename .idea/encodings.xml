@@ -6,6 +6,7 @@
     <file url="file://$PROJECT_DIR$/drag_admin/src/main/resources/application.yaml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/drag_base/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/drag_commons/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/drag_eureka/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/drag_gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/drag_utils/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/drag_xo/src/main/java" charset="UTF-8" />

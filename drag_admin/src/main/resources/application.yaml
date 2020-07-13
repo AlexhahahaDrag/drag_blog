@@ -85,9 +85,9 @@ server:
 
 #阿里大于
 templateCode: SMS_XXXXXX #短信模板编号
-signName: 蘑菇博客
+signName: drag博客
 #项目名称
-PROJECT_NAME: 蘑菇博客
+PROJECT_NAME: drag博客
 
 file:
   upload:
@@ -98,7 +98,7 @@ moguBlog:
   email: 734663446@qq.com
 
 # 蘑菇博客登录默认密码
-DEFAULE_PWD: drag2018
+DEFAULT_PWD: drag2020
 
 #博客相关配置
 BLOG:
